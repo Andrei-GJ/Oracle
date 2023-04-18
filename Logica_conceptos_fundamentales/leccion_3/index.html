@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mejorar el imc</title>
+</head>
+<body>
+    <script>
+        function saltar_linea(){
+            document.write("<br>");
+            document.write("<br>");
+        }
+        function imprimir(frase){
+            document.write(frase);
+            document.write("<br>");
+
+        }
+
+        var nombre = prompt("Como te llamas?");
+        var peso = prompt("cuanto pesas");
+        var altura = prompt ("Cuanto mides");
+        var imc = peso / (altura * altura);
+
+        imprimir(imc)
+        if (imc < 18.5){
+            saltar_linea ;
+            imprimir("estas por abajo de lo recomendado")
+        }
+        if (imc >= 18.5){
+            if(imc < 25){
+                saltar_linea;
+                imprimir("Estas en el intervalo normal de peso")}
+        }
+        if (imc >= 25){
+            if (imc < 30){
+                saltar_linea ;
+                imprimir("tienes sobrepeso")}
+            
+        }
+        if (imc >= 30){
+            saltar_linea ;
+            imprimir("Tienes obsesidad")
+        }
+    </script>
+</body>
+</html>
