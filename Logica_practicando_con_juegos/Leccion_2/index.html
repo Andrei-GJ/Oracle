@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft</title>
+</head>
+<body>
+    <canvas width="400" height="400"></canvas>
+</body>
+<script>
+    const pantalla = document.querySelector("canvas");
+    const pincel = pantalla.getContext("2d");
+
+    pincel.fillStyle = ("black");
+    pincel.fillRect (0,0,400,400);
+
+    pincel.fillStyle = ("darkgreen");
+    pincel.fillRect(3,3,394,394);
+
+    pincel.fillStyle = ("black");
+    pincel.fillRect(45,75,110,100);
+
+    pincel.fillStyle = ("black");
+    pincel.fillRect(235,75,110,100);
+
+    pincel.fillStyle =("black");
+    pincel.fillRect(155,175,80,150);
+
+    pincel.fillStyle =("black");
+    pincel.fillRect(235,250,70,75);
+
+    pincel.fillStyle =("black");
+    pincel.fillRect(85,250,70,75);
+
+    pincel.fillStyle =("black");
+    pincel.fillRect(235,320,70,50);
+
+    pincel.fillStyle =("black");
+    pincel.fillRect(85,320,70,50);
+</script>
+</html>
