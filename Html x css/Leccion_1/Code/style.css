@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* como invocarlo font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/* como invocarlo font-family: 'Roboto Mono', monospace; */
+.title{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    margin-bottom: 19px;
+}
+.body{
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+    align-items: center;
+    text-align: center;   
+}
+.imagen_1{
+    width: 90%;
+    height: 850px;
+    max-width: 4000px;
+    min-width: 200px;
+    max-height: 5000px;
+    min-height: 100px;
+}
+.diferenciales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texts{
+    margin:10px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.mision{
+    color: brown;
+}
+.ol{
+    text-align: center;
+}
