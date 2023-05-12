@@ -59,10 +59,16 @@ hr{
     background-image: url("C:\Users\andrei sotelo\Desktop\Proyectos\Oracle\Html_x_css_2\leccion_1\asents");
 }
 .bg{
-    height: 500px;
+    height: 400px;
     width: 1818px;
     resize: both;
     overflow: auto;
     background-repeat:space;
+    position: relative;
 
+}
+.logo_B{
+    left: 900px;
+    top: 930px;
+    position: absolute;
 }
