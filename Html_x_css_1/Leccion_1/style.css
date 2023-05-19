@@ -2,6 +2,26 @@
 /* como invocarlo font-family: 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 /* como invocarlo font-family: 'Roboto Mono', monospace; */
+*{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(134, 99, 8);
+}
+ul{
+    font-family: 'Libre Baskerville', serif;
+    display: inline-flex;
+    list-style-type: none;
+    margin: 10px auto;
+    font-size: 20px;
+}
+li{
+    margin-left: 190px;
+    margin-right: 100px;
+}
 .title{
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -37,6 +57,12 @@
 .mision{
     color: brown;
 }
+
 .ol{
     text-align: center;
+}
+
+.navegator{
+    background-color: darkgray;
+    margin-bottom: 10px;
 }
