@@ -1,66 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="header">
-        <img src="./asents/logo.png" alt="logo" class="logo">
-        <ul>
-            <a href="/Html_x_css_1/Leccion_1/index1.html"><li>Home</li></a>
-            <a href="/Html_x_css_2/leccion_1/index2.html"><li>Productos</li></a>
-            <a href="/Html_x_css_3/index3.html"><li>Contacto</li></a>
-        </ul>
-        <form>
-            Nombre y apellido <br> <input type="text">
-            <p></p>
-            Correo electronico <br> <input type="email">
-            <p></p>
-            Telefono <br> <input type="number">
-            <p></p>
-            mensaje <br> <textarea rows="20" cols="55"></textarea>
-            <p></p>
-            <div>            
-                ¿Como prefieres ser contactado? 
-                    <p>
-                <input type="radio" name="comunicacion" value="1">Mensaje<p>
-                <input type="radio" name="comunicacion" value="2">Whatsapp<p>
-                <input type="radio" name="comunicacion" value="3">Facebook<p>
-                <input type="radio" name="comunicacion" value="4">Instagram<p>
-            </div>
-            <div>
-                <select name="semana" id="semana">>
-                    <option>Lunes</option>
-                    <option>martes</option>
-                </select>
-                <p>
-                <input type="checkbox">¿Le gustaria recibir novedades de Barberia Alura?
-            </div>
-            <input type="submit" value="enviar formulario"> 
-        </form>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Registro</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./asents/logo.png" alt="logo" class="logo" />
+      <ul>
+        <a href="/Html_x_css_1/Leccion_1/index1.html">
+          <li>Home</li>
+        </a>
+        <a href="/Html_x_css_2/leccion_1/index2.html">
+          <li>Productos</li>
+        </a>
+        <a href="/Html_x_css_3/index3.html">
+          <li>Contacto</li>
+        </a>
+      </ul>
+    </header>
+    <main>
+      <form>
+        Nombre y apellido
+        <br />
+        <input type="text" />
+        <p></p>
+        Correo electronico <br />
+        <input type="email" placeholder="ejemplo@gmail.com" />
+        <p></p>
+        Telefono <br />
+        <input type="number" placeholder="XXX - XXX- XXXX" />
+        <p></p>
+        Mensaje <br />
+        <textarea rows="20" cols="55"></textarea>
+        <p></p>
         <div>
-            <table>
-            <tr>
-                <th>dia</th>
-                <th>Horario</th>
-            </tr>
-            <tr>
-                <td>Lunes</td>
-                <td>08h ~ 20h</td>
-            </tr>
-            <tr>
-                <td>Miercoles</td>
-                <td>08h ~ 20h</td>
-            </tr>
-            <tr>
-                <td>Viernes</td>
-                <td>08h ~ 20h</td>
-            </tr>
-        </table>
+          ¿Como prefieres ser contactado?
+          <p><input type="radio" name="comunicacion" value="1" />Mensaje</p>
+          <p><input type="radio" name="comunicacion" value="2" />Whatsapp</p>
+          <p><input type="radio" name="comunicacion" value="3" />Facebook</p>
+          <p><input type="radio" name="comunicacion" value="4" />Instagram</p>
+          <p></p>
         </div>
-    </div> 
-</body>
+        <div>
+          <select name="semana" id="semana">
+            <option>Lunes</option>
+            <option>Martes</option>
+            <option>Miercoles</option>
+            <option>Jueves</option>
+            <option>Viernes</option>
+            <option>Sabado</option>
+            <option>Domingo</option>
+          </select>
+          <p>
+            <input type="checkbox" />¿Le gustaria recibir novedades de Barberia
+            Alura?
+          </p>
+        </div>
+        <input type="submit" value="enviar formulario" />
+        <p></p>
+        <table>
+          <tr>
+            <th>dia</th>
+            <th>Horario</th>
+          </tr>
+          <tr>
+            <td>Lunes</td>
+            <td>08h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Miercoles</td>
+            <td>08h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>08h ~ 20h</td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
 </html>
