@@ -28,3 +28,15 @@ nav a{
     font-size: 40px;
     font-family:  'Roboto', sans-serif;
 }
+.img_1{
+    width: 1825px;
+    height: 750px;
+}
+.utensilios{
+    float: left;
+    width: 300px;
+}
+.acerca{
+    text-align: center;
+    font-size: 20px;
+}
