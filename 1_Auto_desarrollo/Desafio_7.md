@@ -1,3 +1,0 @@
-# formato  favorito de aprendizaje
-Concidero que el formato en le que me gusta aprender dentro de las que muestra la piramide del video es "experimentar con otros" debido a que esto tiende a estar relacianado con el hacer lo aprendido aunque el formato de "Debatir con otros" me agrada por el hecho de que tiende a mostrar muchos puntos de vista para un mismo tema 
-<image src="https://i.pinimg.com/originals/66/1e/75/661e7595e012216ea8b51dad55aef7c9.jpg">

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>triangulo_rectangulo</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+    <script>
+        const pantalla = document.querySelector("canvas");
+        const pincel = pantalla.getContext("2d");
+
+        pincel.fillStyle = ("gray")
+        pincel.fillRect (0,0,600,400)
+
+        pincel.fillStyle = ("black")
+        pincel.beginPath();
+        pincel.moveTo (20,20);
+        pincel.lineTo (20,390);
+        pincel.lineTo (590,390);
+        pincel.fill()
+
+        pincel.fillStyle = ("white")
+        pincel.beginPath();
+        pincel.moveTo (30,35);
+        pincel.lineTo (30,380);
+        pincel.lineTo (575,385);
+        pincel.fill()
+
+        pincel.fillStyle = ("black")
+        pincel.beginPath();
+        pincel.moveTo (40,50);
+        pincel.lineTo (40,370);
+        pincel.lineTo (560,380);
+        pincel.fill()
+
+        pincel.fillStyle = ("white")
+        pincel.beginPath();
+        pincel.moveTo (50,65);
+        pincel.lineTo (50,360);
+        pincel.lineTo (535,370);
+        pincel.fill()
+    </script>
+</body>
+</html>

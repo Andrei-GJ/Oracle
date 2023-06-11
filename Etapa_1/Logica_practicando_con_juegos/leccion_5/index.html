@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Una flor</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+
+<script>
+
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    pincel.fillStyle = "lightgray";
+    pincel.fillRect(0, 0, 600, 400);
+
+    var radio = parseInt(prompt("de cuanto quieres que sea el tamaño de los circulos"));
+    var color1 = prompt("Escoge el color del primer circulo 1/5");
+    var color2 = prompt("Escoge el color del primer circulo 2/5");
+    var color3 = prompt("Escoge el color del primer circulo 3/5");
+    var color4 = prompt("Escoge el color del primer circulo 4/5");
+    var color5 = prompt("Escoge el color del primer circulo 5/5");
+    function dibujarCirculo(x, y, radio, color) {
+
+        pincel.fillStyle = color;
+        pincel.beginPath();
+        pincel.arc(x, y, radio, 0, 2*3.14);
+        pincel.fill();
+    }
+
+    dibujarCirculo(300,200,radio,color1);
+    dibujarCirculo(300,250,radio,color2);
+    dibujarCirculo(300,150,radio,color3);
+    dibujarCirculo(250,200,radio,color4);
+    dibujarCirculo(350,200,radio,color5);
+
+</script>
+</body>
+</html>
