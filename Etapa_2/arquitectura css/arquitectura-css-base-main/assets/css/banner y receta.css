@@ -1,0 +1,34 @@
+.banner{
+    position: relative;
+}
+.banner_imagen{
+    width: 100%;
+    height: calc(100vh -72px);
+}
+.banner_texto{
+    color: #fdfdfd;
+    font-family: pacifico ,cursive;
+    font-size: 5.0625rem;
+    position: absolute;
+    text-shadow: 0 4px 4px  rgb(0, 0, 0,0.75);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;    
+}
+.sobre{
+    text-align: center;
+    margin-top: 20px;
+}
+.sobre_titulo{
+    color: #DA2B1F;
+    font-size: 3.1875rem;
+    font-family: pacifico ,cursive;
+}
+.sobre_frase{
+    color:  #8C8888;
+    margin-top: 15px;
+    font-size: 1.75rem;
+    font-weight: 100%;
+}
