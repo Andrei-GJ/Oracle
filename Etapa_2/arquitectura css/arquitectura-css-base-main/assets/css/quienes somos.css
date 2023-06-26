@@ -1,0 +1,45 @@
+.quienes{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.quienes__titulo{
+    color: #DA2B1F;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 3.1875rem;
+    font-family: pacifico ,cursive;
+}
+.quienes__descripcion{
+    font-size: 1.75rem;
+    color: #8C8888;
+    margin-bottom: 4rem;
+}
+.personas{
+    display: flex;
+    justify-content: space-around;
+}
+.persona__imagen--roberta,.persona__imagen--marcela,.persona__imagen--andreia{
+    border-radius: 50%;
+}
+.persona__nombre{
+    color: #DA2B1F;
+    font-family: pacifico ,cursive;
+    font-size: 2rem;
+}
+.persona__funcion{
+    color: #8C8888;
+    font-size: 1.5rem;
+}
+.footer{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5rem;
+    padding-right: 1rem;
+}
+.footer__frutas,.footer__contacto{
+    color: #8C8888;
+    font-size: 1.5rem;
+
+}
